@@ -15,3 +15,4 @@
 {"chat_id": "5097683971", "step": "llm_response", "parts": [{"text": "{\"answer\": \"Hello! How can I help you today?\", \"log_url\": \"__LOG_URL__\"}"}], "ts": 1785435786.7352393}
 {"chat_id": "5097683971", "step": "final_answer", "answer": "{\"answer\": \"Hello! How can I help you today?\", \"log_url\": \"__LOG_URL__\"}", "ts": 1785435788.8773384}
 {"chat_id": "5097683971", "step": "start", "history": ["Hello"], "ts": 1785435802.8507526}
+{"chat_id": "5097683971", "step": "llm_response", "parts": [{"function_call": "run_python"}], "ts": 1785435808.851663}
