@@ -31,3 +31,4 @@
 {"chat_id": "5097683971", "step": "tool_call", "tool": "run_python", "input": {"code": "import os\nprint(os.listdir('python') if os.path.exists('python') else 'No python dir')\n"}, "output": "ERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\Ayush Rawat\\Desktop\\telegram_data_bot\\agent.py\", line 88, in _tool_run_python\n    exec(code, g)\n  File \"<string>\", line 2, in <module>\nNotADirectoryError: [WinError 267] The directory name is invalid: 'python'\n", "ts": 1785435858.1117196}
 {"chat_id": "5097683971", "step": "start", "history": ["Hello", "Hello"], "ts": 1785435862.7345665}
 {"chat_id": "5097683971", "step": "start", "history": ["Hello", "Hello", "Hello"], "ts": 1785435866.2511573}
+{"chat_id": "5097683971", "step": "llm_response", "parts": [{"function_call": "run_python"}], "ts": 1785435872.8703012}
